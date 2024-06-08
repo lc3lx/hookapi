@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const json = require("json")
 const mongoose = require("mongoose")
 const Order = require("./Module/Order")
-mongoose.connect("mongodb+srv://widers:Ab6432987@sala-app2.jls5rsb.mongodb.net/webhoke").then(()=>{
+mongoose.connect("mongodb+srv://doadmin:6L7vI8F24k5Hsp19@db-mongodb-nyc3-16092-a9d3bf76.mongo.ondigitalocean.com/admin?tls=true&authSource=admin").then(()=>{
     console.log("connction is scssfoyl")
     }).catch(()=>{
         console.log("game over try again")
