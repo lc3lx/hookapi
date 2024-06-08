@@ -57,7 +57,7 @@ app.post('/webhook',async (req, res) => {
 
     })
     const resulat = await orderr.save()
-    res.status(200).send(resulat)
+    res.status(200).json(resulat)
 
     
 });
