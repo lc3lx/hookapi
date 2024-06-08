@@ -63,7 +63,7 @@ app.post('/webhook',async (req, res) => {
 });
 
 
-const PORT = 1099|| 3000;
+const PORT = 1099;
 
 app.listen(PORT, () => {
     console.log(`Webhook receiver listening on port ${PORT}`);
