@@ -21,7 +21,7 @@ app.get("/getorder",async(req,res) =>{
 })
 
 app.post('/webhook',async (req, res) => {
-    const orderr = new order({
+    const orderr = new Order({
         id : req.body.id,
         cart_reference_id: req.body.cart_reference_id,
         reference_id: req.body.reference_id,
